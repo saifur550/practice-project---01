@@ -1,0 +1,182 @@
+/* ========================== 
+        google fonts 
+============================ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800&display=swap');
+
+/* ========================== 
+       Root variables
+============================ */
+:root{
+
+    /* ---fonts variable---- */
+    --mainFont :'Montserrat', sans-serif;
+    --fontBold:700;
+    --fontSemi:600;
+    --fontMedium:500;
+    --fontRegular:400;
+    --fontLight:300;
+    
+
+    /* ---color variable---- */
+
+
+
+    
+}
+
+
+/* ========================== 
+      Reset CSS
+============================ */
+
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+     -webkit-box-flex: 0;
+     -ms-flex: 0 0 auto;
+         flex: 0 0 auto;
+}
+
+
+
+
+
+
+/* ========================== 
+     Global CSS
+============================ */
+
+li{
+    list-style: none;
+}
+
+ul{
+    display: flex;
+}
+
+html{
+    font-family: 62.5%;
+}
+
+
+body{
+    font-family:var(--mainFont);
+}
+
+.container {
+	overflow-x: hidden;
+}
+
+
+
+
+/* ========================== 
+     ---- section style
+============================ */
+.header__section{
+     background-color: #334257;
+    
+  
+
+}
+
+
+
+.banner__section{
+     padding-top: 5rem;
+     padding-bottom: 10rem;
+}
+
+
+
+.banner__right__content{
+     background:url(../img/blob.svg) no-repeat center 80px;
+}
+
+.banner__right__content img{
+     width: 100%;
+}
+
+
+.banner__left__content{
+     margin-left: 3rem;
+}
+
+
+
+/* ========================== 
+     ---- section style
+============================ */
+
+
+/* ========================== 
+     ---- section style
+============================ */
+
+
+/* ========================== 
+     ---- section style
+============================ */
+
+
+/* ========================== 
+     ---- section style
+============================ */
+
+
+
+/* ========================== 
+     ---- section style
+============================ */
+
+
+
+
+/* ========================== 
+     ---- section style
+============================ */
+
+
+
+
+/* ========================== 
+     ---- section style
+============================ */
+
+
+
+
+/* ========================== 
+     ---- section style
+============================ */
+
+
+
+
+/* ========================== 
+        Google fonts 
+============================ */
+
+
+
+
+
+
+/* ========================== 
+ Responsive  Media Queries
+============================ */
+
+
+@media only screen and (max-width: 480px) {
+     .flex__item{
+          display: flex;
+          flex-direction: column;
+
+     }
+}
+@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 1024px) {}
+@media only screen and (max-width: 1200px) {}
